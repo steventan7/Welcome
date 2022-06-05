@@ -26,11 +26,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "rules":{
-      "react-app": "warn",
-      "react-app/jest": "warn"
-    }
+    ]
   },
   "browserslist": {
     "production": [

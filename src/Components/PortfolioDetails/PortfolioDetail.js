@@ -1,9 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import styles from "./PortfolioDetail.module.css";
 import ResumeDetail from "./ResumeDetail";
 
 const PortfolioDetail = () => {
-  const [visible, setVisibility] = useState(false);
 
   const bubbleBackground = (
     <div id="background-wrap">
@@ -19,7 +18,7 @@ const PortfolioDetail = () => {
       <div className={`${styles.bubble} ${styles.x10}`}></div>
     </div>
   );
-  return <> {bubbleBackground} <ResumeDetail setVisibility= {setVisibility} /> </>;
+  return <> {bubbleBackground} <ResumeDetail /> </>;
 };
 
 export default PortfolioDetail;
