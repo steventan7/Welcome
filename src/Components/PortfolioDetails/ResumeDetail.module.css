@@ -1,0 +1,52 @@
+.ResumeDetailContainer{
+    height:100%;
+}
+
+.ResumeDetailItem {
+    border-radius: 30px;
+    padding: 20px;
+    position: static;
+    z-index: 10;
+    
+}
+
+.bubble {
+  height: 550px;
+  width: 550px;
+  border-radius: 50%;
+  position: relative;
+  align-items: center;
+  justify-content: center;  
+  font-family: Roboto;
+  font-size: 20px;
+  text-align:center;
+  position: static;
+  line-height: 1.5;
+  z-index: 10;
+
+  background: radial-gradient(
+    circle at 75% 30%,
+    white 5px,
+    aqua 8%,
+    #1e90ff 60%,
+    aqua 100%
+  );
+  box-shadow: inset 0 0 20px #fff, inset 10px 0 46px #eaf5fc,
+    inset 88px 0px 60px #c2d8fe, inset -20px -60px 100px #fde9ea,
+    inset 0 50px 140px #fde9ea, 0 0 90px #fff;
+}
+
+.image {
+  border-radius:10px;
+  margin-top:65px;
+}
+
+.resumePadding {
+  padding: 0px 25px 25px 25px;
+}
+
+.pad {
+  padding: 0px 25px 25px 25px;
+  font-size: 25px;
+  color:#15323d
+}

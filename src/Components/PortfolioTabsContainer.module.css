@@ -1,0 +1,21 @@
+.PortfolioTabsContainer {
+    padding: 1.25rem;
+    height: 100%;
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    z-index: 10;
+    position:fixed;
+    width:50%; /* to-do: revisit this. Utilize flex-box */
+}
+
+.tab {
+    width: 33%; 
+    height: 70px;
+}
+
+.tab:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}

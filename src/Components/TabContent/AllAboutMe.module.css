@@ -1,0 +1,10 @@
+.image {
+    padding-top:8 px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.p {
+    text-align: center;
+    font-size: 17px;
+}

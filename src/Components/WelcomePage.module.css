@@ -1,0 +1,49 @@
+.welcome {
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-size: 70px;
+    color: white;
+    position:relative;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid black; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 2s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+
+.background {
+  background-image: linear-gradient(0deg, #36295e, #1c1045);   
+  height: 100%;
+}
+
+.glow {
+    position: absolute;
+    top: calc(50% - 305px);
+    left: calc(50% - 305px);
+    width: 610px;
+    height: 610px;
+    border-radius: 50%;
+    box-shadow:
+      inset 0 0 50px #fff,
+      inset 20px 0 80px #7bade3,
+      inset -20px 0 80px #5049cb,
+      inset 20px 0 300px #7bade3,
+      inset -20px 0 300px #5049cb,
+      0 0 50px #fff,
+      -10px 0 80px #7bade3,
+      10px 0 80px #5049cb;
+  }
+
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white; }
+}

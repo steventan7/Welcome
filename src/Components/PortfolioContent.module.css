@@ -1,0 +1,23 @@
+.PortfolioContent{
+    height: 100%;
+  }
+  
+.background {
+    background-size: 200% 200%;
+    background-image: linear-gradient(
+          -70deg, 
+          #74ccf4 0%, 
+          #5abcd8 25%, 
+          #1ca3ec 50%,
+          #2389da 75%,
+          #0f5e9c 100%
+    );  
+    animation: AnimateBG 35s ease infinite;
+    height: 100%;
+}
+
+@keyframes AnimateBG { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
