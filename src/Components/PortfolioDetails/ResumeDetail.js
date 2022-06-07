@@ -10,13 +10,7 @@ const ResumeDetail = () => {
 
   let resumeDetails = <p className={styles.pad}> Click around to learn more about me </p>;
   let image = (
-      <img
-        src="data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-        className={styles.image}
-        alt="mittens"
-        height="150px"
-        width="150px"
-      />
+      <p></p>
   );
 
   if (mainSection === "resume" && subSection && id) {
