@@ -37,7 +37,7 @@ const experience = {
   2: {
     id: 2,
     dateRange: "May 2022 - August 2022",
-    description: "Utilizing VAN, R, and SQL to perform political data analytics to help support a campaign to increase black voter turn-out in Georgia's elections",
+    description: "Utilizing VAN to perform political data analytics to help support a campaign to increase black voter turn-out in Texas's elections",
     title: "Political Tech Fellow @ Bluebonnet",
     image:
       "https://media-exp1.licdn.com/dms/image/C560BAQF1iQM48_zQnQ/company-logo_200_200/0/1591195839063?e=1661990400&v=beta&t=K5eR7mB-o2l5EssCWL3HUgVkqcOOf2ktfobxUevLJGY",
@@ -55,7 +55,7 @@ const experience = {
     id: 4,
     dateRange: "April 2022 - June 2022",
     description:
-      "Paired with a professional software engineer as part of an eight-week mentorship to receive guidance on a personal project and to learn more advanced front-end engineering concepts",
+      "Paired with a professional software engineer as part of an eight-week mentorship to receive guidance on a personal project and to learn advanced front-end engineering concepts",
     title: "Software Engineering Mentee @ Out in Tech",
     image: "https://pbs.twimg.com/media/FFxn8MbWQAAivtf.jpg",
   },
