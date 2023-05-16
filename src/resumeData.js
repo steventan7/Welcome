@@ -9,11 +9,11 @@ const portfolio = {
   },
   2: {
     id: 2,
-    dateRange: "February 2022 - April 2022",
-    description: "Flashcard Study App implemented in Java using Android Studio. Created in association with CodePath",
-    title: "Testlet",
+    dateRange: "April 2023 - May 2023",
+    description: "Android app that allows the user to make orders for donuts and coffee",
+    title: "RU-Cafe",
     image:
-      "https://camo.githubusercontent.com/52bc4c67202d7ab6f1388ab6de04428455fc8a8d1fafc249b2bcbe61d7b0da47/687474703a2f2f672e7265636f726469742e636f2f71554b763152686a424b2e676966",
+      "https://sugargeekshow.com/wp-content/uploads/2020/10/baked_donut_recipe_featured.jpg",
   },
 
   3: {
@@ -28,34 +28,42 @@ const portfolio = {
 const experience = {
   1: {
     id: 1,
-    dateRange: "May 2022 - August 2022",
-    description: "Developing a server-client infrastructure in Pytorch to allow for remote control of autonomous robots in a small city environment using machine learning algorithms",
-    title: "Summer Research Intern @ WINLAB",
+    dateRange: "May 2023 - August 2023",
+    description: "I will be interning in Pittsburgh as part of the DevOps team for PNC!",
+    title: "Software Engineering Intern @ PNC",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4E0BAQFxp9EzmG0z6A/company-logo_200_200/0/1519882416662?e=1661990400&v=beta&t=PcxicILSJa8T9EyBNIRupmBIV7szycV2KV-iK-5RN_4",
+      "https://logodownload.org/wp-content/uploads/2021/04/pnc-bank-logo-0.png",
   },
   2: {
     id: 2,
-    dateRange: "May 2022 - August 2022",
-    description: "Utilizing VAN to perform political data analytics to help support a campaign to increase black voter turn-out in Texas's elections",
-    title: "Political Tech Fellow @ Bluebonnet",
+    dateRange: "May 2022 - Present",
+    description: "I am a teaching assistant for the introductory computer science course at Rutgers, in which I coordinate weekly lessons with up to 90 students.",
+    title: "Teaching Assistant",
     image:
-      "https://media-exp1.licdn.com/dms/image/C560BAQF1iQM48_zQnQ/company-logo_200_200/0/1591195839063?e=1661990400&v=beta&t=K5eR7mB-o2l5EssCWL3HUgVkqcOOf2ktfobxUevLJGY",
+      "https://dailytargum.imgix.net/images/b01393ba-5733-4873-a655-418df5d0eb8c.JPG",
   },
   3: {
     id: 3,
-    dateRange: "May 2022 - May 2022",
-    description:
-      "Analyzed and automated the distribution of pharmaceutical chargeback data using SQL, Microsoft SQL Server, and Microsoft Flow",
-    title: "Data Analyst Extern @ Unichem",
+    dateRange: "May 2022 - August 2022",
+    description: "For my summer research, I developed a server-client infrastructure in Pytorch that enabled automated driving in a remote-controlled car.",
+    title: "Summer Research Intern @ WINLAB",
     image:
-      "https://media-exp1.licdn.com/dms/image/C4E0BAQHV9SMuxWsIXA/company-logo_200_200/0/1561663123174?e=1661990400&v=beta&t=VE5jlFofkDfQBz7rgsw16ztoqT4V6rRfVpacSt-TnHc",
+      "https://static.wixstatic.com/media/ece539_a29eef8d54b946f19585acc8a7968907~mv2.png/v1/fill/w_215,h_287,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/winlab%201_webp.png",
   },
   4: {
     id: 4,
+    dateRange: "May 2022 - May 2022",
+    description:
+      "During this externship, I analyzed and automated the distribution of pharmaceutical chargeback data.",
+    title: "Data Analyst Extern @ Unichem",
+    image:
+      "https://media.licdn.com/dms/image/C4E0BAQHV9SMuxWsIXA/company-logo_100_100/0/1561663123174?e=1692230400&v=beta&t=snfI0pjDF66-nF-jBgUObiCLqHskeYgPI_MjgH9900M",
+  },
+  5: {
+    id: 5,
     dateRange: "April 2022 - June 2022",
     description:
-      "Paired with a professional software engineer as part of an eight-week mentorship to receive guidance on a personal project and to learn advanced front-end engineering concepts",
+      "I was paired with a professional software engineer as part of an eight-week mentorship to receive guidance on a personal project and to learn advanced front-end engineering concepts",
     title: "Software Engineering Mentee @ Out in Tech",
     image: "https://pbs.twimg.com/media/FFxn8MbWQAAivtf.jpg",
   },
@@ -65,22 +73,22 @@ const activities = {
   1: {
     id: 1,
     dateRange: "May 2022 - Present",
-    description: "Working with potential collaborators and other university clubs to increase member turnout and plan event logistics accordingly",
-    title: "Out in Tech Outreach Coordinator",
+    description: " As president, I am spearheading a university chapter of the world’s largest LGBTQA+ nonprofit tech organization by directing 10+ events related to workshops and socials and recruiting with club sponsors",
+    title: "Out in Tech @ Rutgers President",
     image:
       "https://media-exp1.licdn.com/dms/image/C560BAQFSrVntGTsz7Q/company-logo_200_200/0/1625607961159?e=2147483647&v=beta&t=EX3F-ttAn2zBmgPQAh28VR4uYg0781qrtJZosPV9tDw",
   },
   2: {
     id: 2,
-    dateRange: "April 2022 - Present",
-    description: "Overseeing and providing insight on event planning to maintain club attendance and visibility within the Rutger CS community",
-    title: "USACS Events Coordinator",
+    dateRange: "May 2022 - May 2023",
+    description: "For my club USACS, I oversaw event planning to maintain club attendance and visibility within the Rutger CS community. I directed judging for club hackathons and projects award ceremonies",
+    title: "Undergraduate Student Alliance of CS Events Coordinator",
     image: "https://miro.medium.com/max/3150/1*BTClg3gj1ZO9uj9zHnevww.jpeg",
   },
   3: {
     id: 3,
     dateRange: "June 2021 - Present",
-    description: "Revised and developed a three hour HTML/CSS workshop curriculum that has been virtually taught to 60+ students in grades 2-12",
+    description: "For Blissful US, I developed a three hour HTML/CSS workshop curriculum that has been virtually taught to 60+ students in grades 2-12",
     title: "Blissful Coding Club HTML/CSS Director",
     image:
       "https://static.wixstatic.com/media/5e0be1_f123aba7359a45aa8d95804f427c2038~mv2.jpg/v1/fit/w_2500,h_1330,al_c/5e0be1_f123aba7359a45aa8d95804f427c2038~mv2.jpg",

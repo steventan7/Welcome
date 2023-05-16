@@ -24,11 +24,8 @@ const AllAboutMe = () => {
         </Grid>
         <Grid item className="item">
           <p className={styles.p}>
-            Hello, there! 👋 I am a second year student at Rutgers University - New Brunswick
-            double majoring in Computer Science and Cognitive Science and
-            minoring in Psychology. I am a huge fan of Pokémon and love cats.
-            Outside my academics and coding, you'll find me running, going on
-            hour-long walks, or playing the piano.
+            Hello, there! 👋 I'm Steven! Thank you for visiting my website! I am a third-year student at Rutgers University - New Brunswick
+            majoring in Computer Science and Cognitive Science and minoring in Psychology! Feel free to look around.
           </p>
         </Grid>
         <Grid>

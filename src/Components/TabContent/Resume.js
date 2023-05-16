@@ -25,9 +25,9 @@ const Resume = () => {
     );
   });
 
-  const ExperienceIds = [1, 2, 3, 4];
+  const ExperienceIds = [1, 2, 3, 4, 5];
   const experienceItems = ExperienceIds.map((id) => {
-    const experienceItem = experience[id];
+  const experienceItem = experience[id];
 
     const { dateRange, title, image } = experienceItem;
 
@@ -70,7 +70,7 @@ const Resume = () => {
         {portfolioItems}
       </ResumeContentTemplate>
       <ResumeContentTemplate>
-        <TemplateHeading>Extracurriculars / Activities</TemplateHeading>
+        <TemplateHeading>Leadership</TemplateHeading>
         {activityItems}
       </ResumeContentTemplate>
     </TabContentTemplate>
